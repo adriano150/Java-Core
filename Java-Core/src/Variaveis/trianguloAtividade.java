@@ -54,6 +54,7 @@ public class trianguloAtividade {
 		
 		System.out.printf("A área do triângulo Y é: %.2f%n", areaDeY);
 		System.out.println("--------------------------------------");
+		System.out.println();
 		
 		if(areaDeX > areaDeY) {
 			System.out.println("O triângulo X possui a maior área");
