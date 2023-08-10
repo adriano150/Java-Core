@@ -14,7 +14,7 @@ public class Triangulo {
 		return Math.sqrt(pDeX * (pDeX - ladoA) * (pDeX - ladoB) * (pDeX - ladoC));
 	}
 	
-	public String classificarTriangulo() {
+	public void classificarTriangulo() {
 		
 		if(ladoA == ladoB && ladoB == ladoC) {
 			System.out.println("Triângulo Equilátero");
@@ -23,6 +23,5 @@ public class Triangulo {
 		}else{
 			System.out.println("Triângulo Escaleno");
 		}
-		return null;                                              
 	}
 }
