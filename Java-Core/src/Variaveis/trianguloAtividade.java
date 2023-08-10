@@ -19,7 +19,6 @@ public class trianguloAtividade {
 		double pDeY;
 		double areaDeY;
 		
-		
 		//Triângulo X
 		System.out.println("Insira o valor do lado A do triângulo X: ");
 		ladoAdeX = entrada.nextDouble();
@@ -30,7 +29,9 @@ public class trianguloAtividade {
 		System.out.println("Insira o valor do lado C do triângulo X: ");
 		ladoCdeX = entrada.nextDouble();
 		
+		//Valor de X
 		pDeX = (ladoAdeX + ladoBdeX + ladoCdeX) / 2;
+		//Área de X
 		areaDeX = Math.sqrt(pDeX * (pDeX - ladoAdeX) * (pDeX - ladoBdeX) * (pDeX - ladoCdeX));
 		
 		System.out.println();
