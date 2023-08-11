@@ -26,7 +26,6 @@ public class TesteRobos {
 		omega.velocidade = entrada.nextInt();
 		System.out.println("");
 		
-		System.out.println("");
 		System.out.println("Informe o nome do robô: ");
 		beta.nome = entrada.next();
 		
@@ -43,8 +42,6 @@ public class TesteRobos {
 		beta.exibirAtributos();
 		
 		entrada.close();
-		
-
 	}
 
 }
