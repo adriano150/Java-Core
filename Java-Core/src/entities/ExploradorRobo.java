@@ -2,10 +2,10 @@ package entities;
 
 public class ExploradorRobo {
 	
+	public String nome;
 	public String status;
 	public int velocidade;
 	public double temperatura;
-	public String nome;
 	
 	public void verificarTemperatura(){
 		if(temperatura > 45) {
