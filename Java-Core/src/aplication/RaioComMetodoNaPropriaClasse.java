@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import util.Calculadora;
 
-public class RaioSemMetodoNaPropriaClasse {
+public class RaioComMetodoNaPropriaClasse {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
