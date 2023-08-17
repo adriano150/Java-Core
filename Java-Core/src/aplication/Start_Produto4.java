@@ -36,7 +36,6 @@ public class Start_Produto4 {
 		produto.adicionarProduto(quantidade);
 		
 		System.out.printf("Quantidade: %s%n", produto.getQuantidade());
-		
 		System.out.printf("Valor total em estoque: R$ %.2f%n", produto.valorTotalEmEstoque());
 		
 		System.out.println("");
@@ -45,7 +44,6 @@ public class Start_Produto4 {
 		produto.removerProduto(quantidade);
 		
 		System.out.printf("Quantidade: %s%n", produto.getQuantidade());
-		
 		System.out.printf("Valor total em estoque: R$ %.2f", produto.valorTotalEmEstoque());
 	
 		entrada.close();
