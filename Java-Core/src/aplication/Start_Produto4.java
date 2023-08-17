@@ -25,8 +25,24 @@ public class Start_Produto4 {
 		produto.setQuantidade(quantidade);
 		System.out.println();
 		
-		System.out.printf("Informações do produto: %nNome: %s%nPreço: %.2f%nQuantidade: %s%n", produto.getNome(), produto.getPreco(), produto.getQuantidade());
-		System.out.printf("Valor total em estoque: R$" + produto.valorTotalEmEstoque());
+		System.out.printf("Informações do produto: %nNome: %s%nPreço: R$ %.2f%nQuantidade: %s%n", produto.getNome()
+				, produto.getPreco(),produto.getQuantidade());
+		
+		System.out.printf("Valor total em estoque: R$ %.2f%n", produto.valorTotalEmEstoque());
+		
+		System.out.println("");
+		System.out.print("Quantos produtos deseja adicionar?: ");
+		quantidade = entrada.nextInt();
+		produto.adicionarProduto(quantidade);
+		
+		System.out.printf("Valor total em estoque: R$ %.2f%n", produto.valorTotalEmEstoque());
+		
+		System.out.println("");
+		System.out.print("Quantos produtos deseja remover?: ");
+		quantidade = entrada.nextInt();
+		produto.removerProduto(quantidade);
+		
+		System.out.printf("Valor total em estoque: R$ %.2f", produto.valorTotalEmEstoque());
 	
 		entrada.close();
 	}
