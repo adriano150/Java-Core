@@ -35,12 +35,16 @@ public class Start_Produto4 {
 		quantidade = entrada.nextInt();
 		produto.adicionarProduto(quantidade);
 		
+		System.out.printf("Quantidade: %s%n", produto.getQuantidade());
+		
 		System.out.printf("Valor total em estoque: R$ %.2f%n", produto.valorTotalEmEstoque());
 		
 		System.out.println("");
 		System.out.print("Quantos produtos deseja remover?: ");
 		quantidade = entrada.nextInt();
 		produto.removerProduto(quantidade);
+		
+		System.out.printf("Quantidade: %s%n", produto.getQuantidade());
 		
 		System.out.printf("Valor total em estoque: R$ %.2f", produto.valorTotalEmEstoque());
 	
