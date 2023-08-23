@@ -9,7 +9,7 @@ public class Start_Produto4 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
-		Produto produto = new Produto(null, 0, 0);
+		Produto produto = new Produto();
 		System.out.println("Digite as informações do produto: ");
 		
 		System.out.print("Nome: ");
