@@ -15,13 +15,13 @@ public class Start_Produto {
 		
 		System.out.println("Digite as informações do produto: ");
 		System.out.print("Nome: ");
-		produto.nome = entrada.next();
+		produto.setNome(entrada.next());
 		
 		System.out.print("Preço: ");
-		produto.preco = entrada.nextDouble();
+		produto.setPreco(entrada.nextDouble());
 		
 		System.out.print("Quantidade em estoque: ");
-		produto.quantidade = entrada.nextInt();
+		produto.setQuantidade(entrada.nextInt());
 		System.out.println();
 		
 		System.out.println("Informações do produto: " + produto);
