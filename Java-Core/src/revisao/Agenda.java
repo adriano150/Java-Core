@@ -3,10 +3,10 @@ package revisao;
 public class Agenda {
 	
 	//Atributos ou varáveis de classe
-	public String nome;
-	public String telefone;
-	public String email;
-	public String endereco;
+	private String nome;
+	private String telefone;
+	private String email;
+	private String endereco;
 	
 	public Agenda() {
 		
@@ -27,8 +27,7 @@ public class Agenda {
 
 	public String getTelefone() {
 		return telefone;
-	}
-
+	}
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
