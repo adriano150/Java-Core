@@ -32,7 +32,7 @@ public class Agenda {
 		return email;
 	}
 	
-	public void setEmail(String email) {
+	private void setEmail(String email) {
 		this.email = email;
 	}
 	
