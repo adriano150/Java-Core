@@ -8,7 +8,7 @@ public class teste {
 		
 		minhaAgenda.setNome("Adriano");
 		minhaAgenda.setTelefone("12345-67890");
-		minhaAgenda.setEmail("eu@email.com");
+		minhaAgenda.addEmail("eu@email.com");
 		minhaAgenda.setEndereco("Rua Cracolândia");
 		
 		System.out.println(minhaAgenda.getNome()+ "\n" + minhaAgenda.getTelefone() + "\n"

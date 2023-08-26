@@ -31,8 +31,8 @@ public class Agenda {
 	public String getEmail() {
 		return email;
 	}
-
-	public void setEmail(String email) {
+	
+	public void addEmail(String email) {
 		this.email = email;
 	}
 
@@ -43,6 +43,7 @@ public class Agenda {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+	
 	
 	
 	
