@@ -8,10 +8,6 @@ public class Agenda {
 	private String email;
 	private String endereco;
 	
-	public Agenda() {
-		
-	}
-	
 	public Agenda(String nome, String telefone) {
 		this.nome = nome;
 		this.telefone = telefone;
