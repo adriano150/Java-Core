@@ -32,9 +32,13 @@ public class Agenda {
 		return email;
 	}
 	
-	public void addEmail(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public void addEmail(String email) {
+		setEmail(email);
+		}
 
 	public String getEndereco() {
 		return endereco;
