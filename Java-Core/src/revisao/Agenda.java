@@ -40,7 +40,7 @@ public class Agenda {
 		return endereco;
 	}
 
-	public void setEndereco(String endereco) {
+	public void addEndereco(String endereco) {
 		this.endereco = endereco;
 	}
 	
