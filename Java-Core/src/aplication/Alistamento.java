@@ -5,16 +5,16 @@ public class Alistamento {
 	private int anoDeNascimento;
 	private String nomeDaMae;
 	private String nomeDoPai;
-	private int telefone;
+	private String telefone;
 	private String email;
 	private double altura;
 	private double peso;
 	
 	//Construtores
 	public Alistamento(String nome, int anoDeNascimento, String nomeDaMae,
-			String nomeDoPai, int telefone, String email, double altura, double peso) {
+			String nomeDoPai, String telefone, String email, double altura, double peso) {
 		this.nome = nome;
-		this.setAnoDeNascimento(anoDeNascimento);
+		this.anoDeNascimento = anoDeNascimento;
 		this.nomeDaMae = nomeDaMae;
 		this.nomeDoPai = nomeDoPai;
 		this.telefone = telefone;
@@ -56,11 +56,11 @@ public class Alistamento {
 		this.nomeDoPai = nomeDoPai;
 	}
 
-	public int getTelefone() {
+	public String getTelefone() {
 		return telefone;
 	}
 
-	public void setTelefone(int telefone) {
+	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
 
@@ -91,7 +91,7 @@ public class Alistamento {
 	//Método
 	public double idadeMinima(int anoDeNascimento) {
 		int idade = 2023 - anoDeNascimento;
-		if(idade >= 18 && idade <= 45) {
+		if(anoDeNascimento >= 18 && anoDeNascimento <= 45) {
 		}else{
 			System.out.println("Idade insuficiente");
 		}
@@ -107,20 +107,15 @@ public class Alistamento {
 			}
 		}
 			public void exibirDados() {
-				System.out.println("----------Alistamento Militar----------");
+				System.out.println("----------Alistamento Militar----------\n");
 				System.out.println("Nome: " + nome);
-				System.out.println("Ano de nascimento: " + getAnoDeNascimento());
+				System.out.println("Ano de nascimento: " + anoDeNascimento);
 				System.out.println("Nome do pai: " + nomeDoPai);
 				System.out.println("Nome da mãe: " + nomeDaMae);
 				System.out.println("Telefone: " + telefone);
 				System.out.println("E-mail: " + email);
 				System.out.println("Altura: " + altura);
 				System.out.println("Peso: " + peso);
-				
-			}
-
-			public void setAnoDeNascimento(int anoDeNascimento) {
-				this.anoDeNascimento = anoDeNascimento;
 			}
 		}
 		
