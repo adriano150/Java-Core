@@ -53,7 +53,7 @@ public class ContaEmpresa extends Conta {
 	/**
 	 * Realizar um empréstimo na conta empresa
 	 * 
-	 * @param quantidade representa o valor
+	 * @param quantidade representa o valor do empréstimo
 	 */
 
 	public void emprestimo(double quantidade) {

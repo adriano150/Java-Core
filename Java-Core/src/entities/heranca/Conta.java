@@ -20,7 +20,7 @@ public class Conta {
 	/**
 	 * O saldo da conta
 	 */
-	private Double saldoConta;
+	protected Double saldoConta;
 
 	public Conta() {
 		/**
@@ -85,7 +85,7 @@ public class Conta {
 	}
 
 	/**
-	 * Realiza um saque na conta
+	 * Realização de um saque na conta
 	 * 
 	 * @param quantidade Representa o valor para o saque
 	 */
@@ -105,7 +105,7 @@ public class Conta {
 		/**
 		 * Um depósito representa uma entrada na conta
 		 * 
-		 * @param quantidade Representa uma entrada na conta
+		 * @param quantidade Representa um valor para entrada na conta
 		 */
 		saldoConta += quantidade;
 	}
